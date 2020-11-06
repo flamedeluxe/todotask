@@ -17,8 +17,8 @@ $config = [
 $app = new App(dirname(__DIR__), $config);
 
 $app->router->get('/', [TaskController::class, 'index']);
-$app->router->get('/task', [TaskController::class, 'showTask']);
-$app->router->post('/task', [TaskController::class, 'showTask']);
+$app->router->get('/task', [TaskController::class, 'task']);
+$app->router->post('/task', [TaskController::class, 'task']);
 
 $app->router->get('/register', [AuthController::class, 'register']);
 $app->router->post('/register', [AuthController::class, 'register']);
