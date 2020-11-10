@@ -8,7 +8,7 @@ use app\controllers\TaskController;
 
 $config = [
     'db' => [
-        'dsn' => 'mysql:host=localhost;port=3306;dbname=bee_base',
+        'dsn' => 'mysql:host=localhost;port=3306;dbname=todotask',
         'user' => 'root',
         'password' => 'root',
     ]
